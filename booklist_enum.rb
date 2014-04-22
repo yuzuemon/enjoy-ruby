@@ -1,5 +1,4 @@
-$:.push('../chapter20/')
-require 'booklist.rb'
+require './booklist.rb'
 
 class BookList
   include Enumerable
