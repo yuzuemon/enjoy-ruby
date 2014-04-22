@@ -1,4 +1,6 @@
 class HelloWorld                # class文
+  attr_accessor :name           # def name, daf name=(value)の定義と同等
+
   def initialize(myname="Ruby") # initializeメソッド
     @name = myname              # インスタンス変数の初期化
   end

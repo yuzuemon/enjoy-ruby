@@ -1,5 +1,6 @@
 tags = [ "A", "IMG", "PRE" ]
-tags.each{ |tagname|
+
+tags.each{|tagname|
   case tagname
   when "P", "A", "I", "B", "BLOCKQUOTE"
     print tagname, " has child.\n"
